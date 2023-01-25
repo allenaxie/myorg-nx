@@ -16,6 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "@myorg/common-ui": ["libs/common-ui/src/index.ts"],
+      "@myorg/fabric-js": ["libs/fabric-js/src/index.ts"],
+      "@myorg/fabricjs-react": ["libs/fabricjs-react/src/index.ts"],
       "@myorg/products": ["libs/products/src/index.ts"]
     }
   },

@@ -1,16 +1,19 @@
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import styles from './app.module.css';
-import NxWelcome from './nx-welcome';
-import { Banner } from '@myorg/common-ui';
-
 import { Route, Routes, Link } from 'react-router-dom';
+import NxWelcome from './nx-welcome';
+import { Banner, CommonUi, DefaultShapes, Circle, FabricjsCanvas, FabricjsEditor } from '@myorg/common-ui';
 
 export function App() {
   return (
     <>
-      <NxWelcome title="admin" />
+      {/* <NxWelcome title="admin" /> */}
       <div />
-
+      <CommonUi />
+      <DefaultShapes />
+      {Circle.radius}
+      <FabricjsCanvas />
+      <FabricjsEditor />
       {/* START: routes */}
       {/* These routes and navigation have been generated for you */}
       {/* Feel free to move and update them to fit your needs */}
@@ -53,3 +56,5 @@ export function App() {
 }
 
 export default App;
+
+
