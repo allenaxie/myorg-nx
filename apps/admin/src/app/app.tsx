@@ -2,26 +2,26 @@
 import styles from './app.module.css';
 import { Route, Routes, Link } from 'react-router-dom';
 import NxWelcome from './nx-welcome';
-import { Banner, CommonUi, DefaultShapes, Circle, FabricjsCanvas, FabricjsEditor } from '@myorg/common-ui';
+import {
+  Banner,
+  CIRCLE,
+  RECTANGLE,
+  FabricJSCanvas,
+  useFabricJSEditor,
+} from '@myorg/common-ui';
+import { TopNav } from '../app/components';
 
 export function App() {
   return (
     <>
       {/* <NxWelcome title="admin" /> */}
-      <div />
-      <CommonUi />
-      <DefaultShapes />
-      {Circle.radius}
-      <FabricjsCanvas />
-      <FabricjsEditor />
+
       {/* START: routes */}
       {/* These routes and navigation have been generated for you */}
       {/* Feel free to move and update them to fit your needs */}
-      <br />
-      <hr />
-      <br />
+
       <div role="navigation">
-        <Banner text='Welcome to our admin app'/>
+        <Banner text="Welcome to our admin app" />
         <ul>
           <li>
             <Link to="/">Home</Link>
@@ -50,11 +50,12 @@ export function App() {
           }
         />
       </Routes>
+      <br />
+      <TopNav />
+      <FabricJSCanvas />
       {/* END: routes */}
     </>
   );
 }
 
 export default App;
-
-
