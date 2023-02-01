@@ -23,8 +23,6 @@ export const LINE = {
   // points:[x,n,n,y]
   points: [100, 0, 0, 100],
   options: {
-    left: 170,
-    top: 50,
     stroke: STROKE
   }
 }

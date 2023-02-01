@@ -15,6 +15,9 @@ const TopNav:FC = () => {
       const onAddRectangle = () => {
         editor?.addRectangle()
       }
+      const onAddYellowRectangle = () => {
+        editor?.addYellowRectangle()
+      }
       const onAddLine = () => {
         editor?.addLine()
       }
@@ -50,6 +53,7 @@ const TopNav:FC = () => {
               <button onClick={onZoomOut}>Zoom Out</button>
               <button onClick={onAddCircle}>Add circle</button>
               <button onClick={onAddRectangle}>Add Rectangle</button>
+              <button onClick={onAddYellowRectangle}>Add Yellow Rectangle</button>
               <button onClick={onAddLine}>Add Line</button>
               <button onClick={onDeleteAll}>Delete All</button>
               <button onClick={onDeleteSelected}>Delete Selected</button>
