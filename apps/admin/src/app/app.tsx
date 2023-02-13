@@ -4,10 +4,7 @@ import { Route, Routes, Link } from 'react-router-dom';
 import NxWelcome from './nx-welcome';
 import {
   Banner,
-  CIRCLE,
-  RECTANGLE,
   FabricJSCanvas,
-  useFabricJSEditor,
 } from '@myorg/common-ui';
 import { TopNav } from '../app/components';
 

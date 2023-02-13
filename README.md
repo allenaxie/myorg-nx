@@ -1,4 +1,5 @@
-# Myorg
+## Reference tutorial
+https://nx.dev/react-tutorial/1-code-generation
 
 <a alt="Nx logo" href="https://nx.dev" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="45"></a>
 
@@ -6,7 +7,7 @@
 
 ## Development server
 
-Run `nx serve store` for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
+Run `nx serve admin` for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
 
 ## Understand this workspace
 
@@ -19,3 +20,9 @@ Run `npx nx connect-to-nx-cloud` to enable [remote caching](https://nx.app) and 
 ## Further help
 
 Visit the [Nx Documentation](https://nx.dev) to learn more.
+
+## Todos
+- Rename FabricJSCanvas to BoardCanvas
+- Delete dead code
+- Remove src folder from libs if its not necessary
+- Rename common-ui to fabric-react
